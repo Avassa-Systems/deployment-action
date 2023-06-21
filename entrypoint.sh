@@ -15,5 +15,5 @@ chmod +x ./supctl
 echo "Login"
 echo "$password" | ./supctl --host="$ct" "do" login "$username" > /dev/null
 
-echo "Send application spec"
+echo "Send deployment spec $dep_spec"
 ./supctl replace application-deployments "$dep_name" < "$dep_spec"
