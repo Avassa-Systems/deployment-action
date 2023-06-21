@@ -23,5 +23,5 @@ runs:
     - ${{ inputs.control-tower }}
     - ${{ inputs.username }}
     - ${{ inputs.password }}
-    - ${{ inputs.application-name }}
+    - ${{ inputs.deployment-name }}
     - ${{ inputs.specification }}
